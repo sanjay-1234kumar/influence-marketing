@@ -1,0 +1,130 @@
+
+body{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6,p,ol,ul,body{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style-type: none;
+
+}
+
+.strating{
+
+    margin: auto;
+    width: 90%;
+    padding: 24px 0px;
+}
+.container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.first{
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+
+}
+
+.firstImage{
+
+    height: 60px;
+    border-radius: 20%;
+    margin-right: 8px;
+
+
+}
+.pargraph{
+
+    margin-top: 16px;
+    font-size: 18px;
+
+}
+
+
+.heading{
+
+    margin: 12px 0px;
+    text-align: center;
+    color: gray;
+
+
+}
+.formcontainer{
+
+    border: 2px solid lightblue;
+    border-radius: 8px;
+
+    padding: 16px 0px;
+
+}
+
+.fromheading{
+
+border-bottom: 1px solid red;
+padding: 16px 32px;
+margin-bottom: 16px;
+
+
+}
+
+.form{
+
+    padding: 8px 24px;
+
+}
+.input{
+    display: block;
+
+    border: none;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  height: 30px;
+margin: 8px 0px;
+
+
+}
+.inputlabel{
+
+  
+  color: grey;
+
+  
+
+}
+.btn{
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+    background-color: lightblue;
+
+}
+
+@media screen and (max-width:600px){
+
+    .container{
+      
+        display: block;
+
+    }
+    .container1{
+        margin-bottom: 24px;
+        text-align: center;
+        
+
+    }
+}
